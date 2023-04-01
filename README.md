@@ -68,3 +68,7 @@ but spark by default support only batch data (data is in not moving state) like 
 Thats y .. spark internally use one lib called spark streaming lib.
 if any streaming data, wait few seconds (5, 10 sec) within this time u ll get some amount/ 10 MB data, that 10MB data goes to memory and process immediately.
 means it's 10 sec old data, not live data...it's called micro batch processing or near streaming data processing.'''
+
+
+# nc -lk 1122 == 'nc -lk' command open in ec2 ubuntu terminal  and  1122 is port number in security group created in a EC2
+# it is mandatoty to use port number while updating in a data
